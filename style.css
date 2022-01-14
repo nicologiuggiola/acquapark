@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400&family=Fugaz+One&display=swap');
+
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0%;
+}
+
+.main-title{
+    display: inline-block;
+    font-family: 'Fugaz One', cursive;
+    text-shadow: 1px 2px 2px white;
+    margin-right: 10%;
+}
+
+.fixed-menu{
+    position: absolute;
+    border: 2px;
+    background-color: #478A94;
+    width: 200px;
+    height: 30%;
+    right: 0px;
+}
+
+.menu-header{
+    display: inline-block;
+    text-align: center;
+}
+
+.lang-logo{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    margin: 22px;
+    right: 0px;
+}
+
+header {
+    overflow: hidden;
+    background-color: #B4D2E7;
+    padding: 20px 30px;
+    border-color: #2B5359;
+    border-bottom: 2px solid;
+  }
+  
+  header a {
+    /*float: left;*/
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: auto;
+    border-radius: 4px;
+  }
+  
+  header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  header a.active {
+    background-color: rgb(111, 170, 230);
+    color: white;
+  }
+  
+  header-right {
+    float: right;
+  }
+
+  footer{
+      overflow: hidden;
+      background-image: url(./images/aquapark-draw-resized.jpg);
+      margin: 0px 0px 0px 0px;
+      position: relative;
+      bottom: 0px;
+      width: 100%;
+      height: 15%;
+  }
+
+  footer p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+}
+
+.footer-img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-content{
+    margin: 0px;
+    background-color: #cceef33b;
+}
+
+.main-content p{
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-content h2{
+    font-family: 'Fugaz One', cursive;
+    text-shadow: 1px 2px 2px white;
+    text-align: center;
+}
+
+.img-main{
+    width: 100%;
+}
+
+.service-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.map-info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-map{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-content{
+    margin: 0px;
+    background-color: #cceef33b;
+}
+
+.info-content h2{
+    font-family: 'Fugaz One', cursive;
+    text-shadow: 1px 2px 2px white;
+    text-align: center;
+}
+
+.info-content p{
+    margin: 0px;
+    font-size: 25px;
+    text-align: center;
+}
